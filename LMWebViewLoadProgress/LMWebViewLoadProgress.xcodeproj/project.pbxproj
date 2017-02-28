@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEE6E2471E2C61FE000DC90D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE6E2461E2C61FE000DC90D /* main.m */; };
+		EEE6E24A1E2C61FE000DC90D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE6E2491E2C61FE000DC90D /* AppDelegate.m */; };
+		EEE6E24D1E2C61FE000DC90D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE6E24C1E2C61FE000DC90D /* ViewController.m */; };
+		EEE6E2521E2C61FE000DC90D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE6E2511E2C61FE000DC90D /* Assets.xcassets */; };
+		EEE6E2551E2C61FE000DC90D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE6E2531E2C61FE000DC90D /* LaunchScreen.storyboard */; };
+		EEE6E2601E2C61FE000DC90D /* LMWebViewLoadProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE6E25F1E2C61FE000DC90D /* LMWebViewLoadProgressTests.m */; };
+		EEE6E26B1E2C61FE000DC90D /* LMWebViewLoadProgressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE6E26A1E2C61FE000DC90D /* LMWebViewLoadProgressUITests.m */; };
+		EEE6E27B1E2C6248000DC90D /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE6E27A1E2C6248000DC90D /* UIView+Frame.m */; };
+		EEE6E27E1E2C6276000DC90D /* NSTimer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE6E27D1E2C6276000DC90D /* NSTimer+Addition.m */; };
+		EEE6E2811E2C62A4000DC90D /* LMWebProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE6E2801E2C62A4000DC90D /* LMWebProgressLayer.m */; };
+		EEE6E2841E2C62FC000DC90D /* LMWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE6E2831E2C62FC000DC90D /* LMWebController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEE6E25C1E2C61FE000DC90D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEE6E23A1E2C61FE000DC90D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEE6E2411E2C61FE000DC90D;
+			remoteInfo = LMWebViewLoadProgress;
+		};
+		EEE6E2671E2C61FE000DC90D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEE6E23A1E2C61FE000DC90D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEE6E2411E2C61FE000DC90D;
+			remoteInfo = LMWebViewLoadProgress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEE6E2421E2C61FE000DC90D /* LMWebViewLoadProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMWebViewLoadProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE6E2461E2C61FE000DC90D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEE6E2481E2C61FE000DC90D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEE6E2491E2C61FE000DC90D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEE6E24B1E2C61FE000DC90D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EEE6E24C1E2C61FE000DC90D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EEE6E2511E2C61FE000DC90D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEE6E2541E2C61FE000DC90D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEE6E2561E2C61FE000DC90D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE6E25B1E2C61FE000DC90D /* LMWebViewLoadProgressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMWebViewLoadProgressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE6E25F1E2C61FE000DC90D /* LMWebViewLoadProgressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMWebViewLoadProgressTests.m; sourceTree = "<group>"; };
+		EEE6E2611E2C61FE000DC90D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE6E2661E2C61FE000DC90D /* LMWebViewLoadProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMWebViewLoadProgressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE6E26A1E2C61FE000DC90D /* LMWebViewLoadProgressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMWebViewLoadProgressUITests.m; sourceTree = "<group>"; };
+		EEE6E26C1E2C61FE000DC90D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE6E2791E2C6248000DC90D /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		EEE6E27A1E2C6248000DC90D /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		EEE6E27C1E2C6276000DC90D /* NSTimer+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Addition.h"; sourceTree = "<group>"; };
+		EEE6E27D1E2C6276000DC90D /* NSTimer+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Addition.m"; sourceTree = "<group>"; };
+		EEE6E27F1E2C62A4000DC90D /* LMWebProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMWebProgressLayer.h; sourceTree = "<group>"; };
+		EEE6E2801E2C62A4000DC90D /* LMWebProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMWebProgressLayer.m; sourceTree = "<group>"; };
+		EEE6E2821E2C62FC000DC90D /* LMWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMWebController.h; sourceTree = "<group>"; };
+		EEE6E2831E2C62FC000DC90D /* LMWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMWebController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEE6E23F1E2C61FE000DC90D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE6E2581E2C61FE000DC90D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE6E2631E2C61FE000DC90D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEE6E2391E2C61FE000DC90D = {
+			isa = PBXGroup;
+			children = (
+				EEE6E2441E2C61FE000DC90D /* LMWebViewLoadProgress */,
+				EEE6E25E1E2C61FE000DC90D /* LMWebViewLoadProgressTests */,
+				EEE6E2691E2C61FE000DC90D /* LMWebViewLoadProgressUITests */,
+				EEE6E2431E2C61FE000DC90D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEE6E2431E2C61FE000DC90D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEE6E2421E2C61FE000DC90D /* LMWebViewLoadProgress.app */,
+				EEE6E25B1E2C61FE000DC90D /* LMWebViewLoadProgressTests.xctest */,
+				EEE6E2661E2C61FE000DC90D /* LMWebViewLoadProgressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEE6E2441E2C61FE000DC90D /* LMWebViewLoadProgress */ = {
+			isa = PBXGroup;
+			children = (
+				EEE6E2781E2C6218000DC90D /* Tools */,
+				EEE6E2481E2C61FE000DC90D /* AppDelegate.h */,
+				EEE6E2491E2C61FE000DC90D /* AppDelegate.m */,
+				EEE6E2821E2C62FC000DC90D /* LMWebController.h */,
+				EEE6E2831E2C62FC000DC90D /* LMWebController.m */,
+				EEE6E24B1E2C61FE000DC90D /* ViewController.h */,
+				EEE6E24C1E2C61FE000DC90D /* ViewController.m */,
+				EEE6E2511E2C61FE000DC90D /* Assets.xcassets */,
+				EEE6E2531E2C61FE000DC90D /* LaunchScreen.storyboard */,
+				EEE6E2561E2C61FE000DC90D /* Info.plist */,
+				EEE6E2451E2C61FE000DC90D /* Supporting Files */,
+			);
+			path = LMWebViewLoadProgress;
+			sourceTree = "<group>";
+		};
+		EEE6E2451E2C61FE000DC90D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEE6E2461E2C61FE000DC90D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEE6E25E1E2C61FE000DC90D /* LMWebViewLoadProgressTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEE6E25F1E2C61FE000DC90D /* LMWebViewLoadProgressTests.m */,
+				EEE6E2611E2C61FE000DC90D /* Info.plist */,
+			);
+			path = LMWebViewLoadProgressTests;
+			sourceTree = "<group>";
+		};
+		EEE6E2691E2C61FE000DC90D /* LMWebViewLoadProgressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEE6E26A1E2C61FE000DC90D /* LMWebViewLoadProgressUITests.m */,
+				EEE6E26C1E2C61FE000DC90D /* Info.plist */,
+			);
+			path = LMWebViewLoadProgressUITests;
+			sourceTree = "<group>";
+		};
+		EEE6E2781E2C6218000DC90D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				EEE6E2791E2C6248000DC90D /* UIView+Frame.h */,
+				EEE6E27A1E2C6248000DC90D /* UIView+Frame.m */,
+				EEE6E27C1E2C6276000DC90D /* NSTimer+Addition.h */,
+				EEE6E27D1E2C6276000DC90D /* NSTimer+Addition.m */,
+				EEE6E27F1E2C62A4000DC90D /* LMWebProgressLayer.h */,
+				EEE6E2801E2C62A4000DC90D /* LMWebProgressLayer.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEE6E2411E2C61FE000DC90D /* LMWebViewLoadProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE6E26F1E2C61FE000DC90D /* Build configuration list for PBXNativeTarget "LMWebViewLoadProgress" */;
+			buildPhases = (
+				EEE6E23E1E2C61FE000DC90D /* Sources */,
+				EEE6E23F1E2C61FE000DC90D /* Frameworks */,
+				EEE6E2401E2C61FE000DC90D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LMWebViewLoadProgress;
+			productName = LMWebViewLoadProgress;
+			productReference = EEE6E2421E2C61FE000DC90D /* LMWebViewLoadProgress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEE6E25A1E2C61FE000DC90D /* LMWebViewLoadProgressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE6E2721E2C61FE000DC90D /* Build configuration list for PBXNativeTarget "LMWebViewLoadProgressTests" */;
+			buildPhases = (
+				EEE6E2571E2C61FE000DC90D /* Sources */,
+				EEE6E2581E2C61FE000DC90D /* Frameworks */,
+				EEE6E2591E2C61FE000DC90D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEE6E25D1E2C61FE000DC90D /* PBXTargetDependency */,
+			);
+			name = LMWebViewLoadProgressTests;
+			productName = LMWebViewLoadProgressTests;
+			productReference = EEE6E25B1E2C61FE000DC90D /* LMWebViewLoadProgressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEE6E2651E2C61FE000DC90D /* LMWebViewLoadProgressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE6E2751E2C61FE000DC90D /* Build configuration list for PBXNativeTarget "LMWebViewLoadProgressUITests" */;
+			buildPhases = (
+				EEE6E2621E2C61FE000DC90D /* Sources */,
+				EEE6E2631E2C61FE000DC90D /* Frameworks */,
+				EEE6E2641E2C61FE000DC90D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEE6E2681E2C61FE000DC90D /* PBXTargetDependency */,
+			);
+			name = LMWebViewLoadProgressUITests;
+			productName = LMWebViewLoadProgressUITests;
+			productReference = EEE6E2661E2C61FE000DC90D /* LMWebViewLoadProgressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEE6E23A1E2C61FE000DC90D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "君安信（北京）科技有限公司";
+				TargetAttributes = {
+					EEE6E2411E2C61FE000DC90D = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					EEE6E25A1E2C61FE000DC90D = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EEE6E2411E2C61FE000DC90D;
+					};
+					EEE6E2651E2C61FE000DC90D = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EEE6E2411E2C61FE000DC90D;
+					};
+				};
+			};
+			buildConfigurationList = EEE6E23D1E2C61FE000DC90D /* Build configuration list for PBXProject "LMWebViewLoadProgress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEE6E2391E2C61FE000DC90D;
+			productRefGroup = EEE6E2431E2C61FE000DC90D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEE6E2411E2C61FE000DC90D /* LMWebViewLoadProgress */,
+				EEE6E25A1E2C61FE000DC90D /* LMWebViewLoadProgressTests */,
+				EEE6E2651E2C61FE000DC90D /* LMWebViewLoadProgressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEE6E2401E2C61FE000DC90D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE6E2551E2C61FE000DC90D /* LaunchScreen.storyboard in Resources */,
+				EEE6E2521E2C61FE000DC90D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE6E2591E2C61FE000DC90D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE6E2641E2C61FE000DC90D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEE6E23E1E2C61FE000DC90D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE6E27B1E2C6248000DC90D /* UIView+Frame.m in Sources */,
+				EEE6E24D1E2C61FE000DC90D /* ViewController.m in Sources */,
+				EEE6E24A1E2C61FE000DC90D /* AppDelegate.m in Sources */,
+				EEE6E27E1E2C6276000DC90D /* NSTimer+Addition.m in Sources */,
+				EEE6E2811E2C62A4000DC90D /* LMWebProgressLayer.m in Sources */,
+				EEE6E2471E2C61FE000DC90D /* main.m in Sources */,
+				EEE6E2841E2C62FC000DC90D /* LMWebController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE6E2571E2C61FE000DC90D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE6E2601E2C61FE000DC90D /* LMWebViewLoadProgressTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE6E2621E2C61FE000DC90D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE6E26B1E2C61FE000DC90D /* LMWebViewLoadProgressUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEE6E25D1E2C61FE000DC90D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEE6E2411E2C61FE000DC90D /* LMWebViewLoadProgress */;
+			targetProxy = EEE6E25C1E2C61FE000DC90D /* PBXContainerItemProxy */;
+		};
+		EEE6E2681E2C61FE000DC90D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEE6E2411E2C61FE000DC90D /* LMWebViewLoadProgress */;
+			targetProxy = EEE6E2671E2C61FE000DC90D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEE6E2531E2C61FE000DC90D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEE6E2541E2C61FE000DC90D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEE6E26D1E2C61FE000DC90D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEE6E26E1E2C61FE000DC90D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEE6E2701E2C61FE000DC90D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LMWebViewLoadProgress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = limin.LMWebViewLoadProgress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEE6E2711E2C61FE000DC90D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LMWebViewLoadProgress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = limin.LMWebViewLoadProgress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EEE6E2731E2C61FE000DC90D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LMWebViewLoadProgressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = limin.LMWebViewLoadProgressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMWebViewLoadProgress.app/LMWebViewLoadProgress";
+			};
+			name = Debug;
+		};
+		EEE6E2741E2C61FE000DC90D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LMWebViewLoadProgressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = limin.LMWebViewLoadProgressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMWebViewLoadProgress.app/LMWebViewLoadProgress";
+			};
+			name = Release;
+		};
+		EEE6E2761E2C61FE000DC90D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LMWebViewLoadProgressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = limin.LMWebViewLoadProgressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LMWebViewLoadProgress;
+			};
+			name = Debug;
+		};
+		EEE6E2771E2C61FE000DC90D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LMWebViewLoadProgressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = limin.LMWebViewLoadProgressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LMWebViewLoadProgress;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEE6E23D1E2C61FE000DC90D /* Build configuration list for PBXProject "LMWebViewLoadProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE6E26D1E2C61FE000DC90D /* Debug */,
+				EEE6E26E1E2C61FE000DC90D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE6E26F1E2C61FE000DC90D /* Build configuration list for PBXNativeTarget "LMWebViewLoadProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE6E2701E2C61FE000DC90D /* Debug */,
+				EEE6E2711E2C61FE000DC90D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EEE6E2721E2C61FE000DC90D /* Build configuration list for PBXNativeTarget "LMWebViewLoadProgressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE6E2731E2C61FE000DC90D /* Debug */,
+				EEE6E2741E2C61FE000DC90D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EEE6E2751E2C61FE000DC90D /* Build configuration list for PBXNativeTarget "LMWebViewLoadProgressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE6E2761E2C61FE000DC90D /* Debug */,
+				EEE6E2771E2C61FE000DC90D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEE6E23A1E2C61FE000DC90D /* Project object */;
+}
